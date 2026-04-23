@@ -1,27 +1,25 @@
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
-import HeroSection from '@/components/sections/HeroSection'
-import BrandStatementSection from '@/components/sections/BrandStatementSection'
-import HowItWorksSection from '@/components/sections/HowItWorksSection'
-import ExperienceSection from '@/components/sections/ExperienceSection'
-import ClassesSection from '@/components/sections/ClassesSection'
-import FounderSection from '@/components/sections/FounderSection'
-import TestimonialsSection from '@/components/sections/TestimonialsSection'
-import CTABannerSection from '@/components/sections/CTABannerSection'
+import Hero from '@/components/sections/Hero'
+import HowItWorks from '@/components/sections/HowItWorks'
+import Values from '@/components/sections/Values'
+import Classes from '@/components/sections/Classes'
+import Testimonials from '@/components/sections/Testimonials'
+import Stats from '@/components/sections/Stats'
+import Contact from '@/components/sections/Contact'
 
 export default function HomePage() {
   return (
     <>
       <Header />
       <main>
-        <HeroSection />
-        <BrandStatementSection />
-        <HowItWorksSection />
-        <ExperienceSection />
-        <ClassesSection />
-        <FounderSection />
-        <TestimonialsSection />
-        <CTABannerSection />
+        <Hero />
+        <HowItWorks />
+        <Values />
+        <Classes />
+        <Stats />
+        <Testimonials />
+        <Contact />
       </main>
       <Footer />
     </>
